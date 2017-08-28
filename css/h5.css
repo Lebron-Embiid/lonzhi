@@ -1,0 +1,73 @@
+.h5{margin-top:4.78em;}
+.h5 .h5_title{padding:2.5em 0 6.7em;}
+.h5 .h5_title h2{font-weight:bold;text-align:center;color:#9b9392;font-size:2.57em;letter-spacing:5px;}
+.h5 .h5_title hr{width:41%;color:#e7e7e7;margin:1.4em auto 1em;}
+.h5 .h5_title p{text-align:center;color:#d2cecf;font-size:1.7em;letter-spacing:6px;}
+.what_is_h5 .what_is_h5_content_img{text-align:center;}
+.what_is_h5 .what_is_h5_content p{font-size:1.14em;color:#454545;line-height:2em;padding:3.5em 6em 0 0;}
+.what_is_h5 .what_is_h5_content span{color:#ff7214;}
+.what_is_h5 .what_is_h5_content b{font-size:2em;color:#ff5f00;}
+.border-back{margin-bottom: 30px;}
+.h5_app{background:#f7f7f7;margin-top:6.6em;}
+.h5_app_content ul{width:922px;margin:0 auto;}
+.h5_app_content .h5_app_content_list{width:262px;padding:8px 8px 16px;border-radius:1em;margin:0 auto 32px;}
+.h5_app_content .h5_app_content_list h3{text-align:center;color:#9c9492;font-weight:bold;font-size:1.8em;}
+.h5_app_content .h5_app_content_list span{color:#e2e0e1;padding-left:0.5em;}
+.h5_app_content .h5_app_content_list p{color:#aaa4a3;font-size:0.85em;margin-top:1.5em;line-height:1.5em;}
+.h5_app_content .h5_app_content_list:hover{background:#456b25;}
+.h5_app_content .h5_app_content_list:hover span{color:#fff;}
+.h5_app_content .h5_app_content_list:hover p{color:#f5f5f5;}
+.h5_app_content .h5_app_content_list:hover h3{color:#ff6000;}
+.h5_cases{margin-top:5em;}
+.h5_cases .h5_cases_content img{display:block;
+	margin:0 auto;
+
+}
+.border-back div{margin-bottom: 30px;}
+/* 小屏幕（大于等于 480px） */
+@media (max-width: 480px) {
+.h5{margin-top:3em;}
+.h5 .h5_title{padding:2em 0 5em;}
+.h5 .h5_title hr{width:70%;}
+.h5 .h5_title h2{font-size:2em;}
+.h5 .h5_title p{font-size:1.4em;}
+.what_is_h5 .what_is_h5_content p{padding:2em 1.1em 0;}
+
+}
+
+/* 小屏幕（，大手机于等于 480px小于768px） */
+@media (min-width:480px) and (max-width:768px) {
+.h5{margin-top:3em;}
+.h5 .h5_title{padding:2em 0 5em;}
+.h5 .h5_title h2{font-size:2em;}
+.h5 .h5_title p{font-size:1.4em;}
+.what_is_h5 .what_is_h5_content p{padding:2em 3em 0;}
+.h5_app_content .h5_app_content_list{padding:8px 8px 16px;border-radius:1em;}
+.h5_app_content .h5_app_content_list h3{font-size:1.5em;}
+.h5_app_content .h5_app_content_list p{font-size:0.75em;margin-top:1em;}
+.oreg{margin-top: 20px;}
+
+
+
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+.h5_app_content .h5_app_content_list{width:236px;padding:8px 8px 16px;border-radius:1em;}
+.what_is_h5 .what_is_h5_content p{padding:3.5em 0em 0 0;}
+.effects h3{font-size: 16px;}
+.effects p{font-size: 11px;}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+.container{width:1000px}
+
+}
+
+
+

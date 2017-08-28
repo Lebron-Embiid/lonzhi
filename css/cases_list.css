@@ -1,0 +1,115 @@
+.cases_content{background:#f4f4f4;}
+.cases_content .cases_title{text-align:center;}
+.cases_content .cases_title h2{font-size:2.57em;font-weight:bold;color:#999292;padding-top:2.77em;}
+.cases_content .cases_title hr{width:41%;margin:1.28em auto 1.57em;background:#d9d9d9;color:#d9d9d9;}
+.cases_content .cases_title p{font-size:1em;color:#d2cccd;}
+.cases_content nav{overflow:hidden;margin:1.8em auto 1.64em;width:406px;}
+.cases_content nav a{display:block;float:left;border:1px solid #ccc;border-radius:5px;margin:0 1.1em;font-size:1.14em;width:100px;text-align:center;line-height:33px;color:#cac7c9;font-weight:bold;}
+.cases_content nav .act_bg{background:#568a2a;color:#fff;border-color:#568a2a;}
+.cases_content nav a:hover{color:#fff;background:#568a2a;border-color:#568a2a;}
+.cases_content .cases_list{padding:3.28em 0 2.6em;}
+
+.cases_img_content{position:relative;width:100%;border:6px solid #fff;}
+.cases_content .cases_list .cases_img_content{margin-bottom:1.42em;}
+.cases_img_content img{width:100%;}
+.cases_img_content p{position:absolute;bottom:0;width:100%;background:rgba(138,138,138,0.7);height:0;line-height:2.85em;color:#fff;text-indent:1em;overflow:hidden;}
+.cases_img p{transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;}
+.cases_img:hover p{line-height:2.85em;height:2.85em;}
+/*分页*/
+.cases_content .pages{margin-bottom:8.5em;}
+.cases_content .pages ul{width:382px;overflow:hidden;margin:0 auto;}
+.cases_content .pages li{float:left;text-align:center;border:1px solid #ebebeb;margin:0 0.3em;}
+.cases_content .pages li a{display:block;line-height:3.4em;width:66px;color:
+#32322a;background:#fff;}
+.cases_content .pages li:hover a{color:#fff;background:#ff7416;}
+.cases_content .pages li .pages_hover{color:#fff;background:#ff7416;}
+.cases_img{padding:0 7px;}
+/*.cases_content .pages .pagination{position:relative;}
+.cases_content .pages .pagination li{float:left;text-align:center;border:1px solid #ebebeb;margin:0 0.3em;}
+.cases_content .pages .pagination li a{border-radius:0;}*/
+/*最新案例*/
+.new_cases{background:#f4f4f4;padding-bottom:8.25em;}
+.new_cases .new_cases_title{height:0;overflow:hidden;}
+.new_cases .new_cases_title1{text-align:center;}
+.new_cases .new_cases_title1 h3{font-size:2.57em;font-weight:bold;color:#000;}
+.new_cases .new_cases_title1 p{font-size:1.42em;margin-bottom:2em;}
+
+.bottom_hr{width:100%;border-top:1px solid #5c5c5e;}
+footer{background:#f4f4f4;}
+/* 小屏幕（大于等于 480px） */
+@media (max-width: 480px) {
+.cases_content .cases_title h2{font-size:2em;padding-top:1em;}
+.cases_content .cases_title p{font-size:0.8em;}
+.cases_content .cases_title hr{margin:0.8em auto 0.6em;width:80%;}
+.cases_content nav{width:296px;}
+.cases_content nav a{margin:0 0.2em 0;width:90px;font-size:1em;line-height:28px;}
+
+.cases_content .cases_list{padding:0em;}
+
+.cases_content .pages{margin-bottom:3em;}
+.cases_content .pages ul{width:304px;}
+.cases_content .pages li a{line-height:2.5em;width:56px;}
+.cases_content .pages li{margin:0 0.1em;}
+
+.new_cases{padding-bottom:3em;}
+.new_cases .new_cases_list .cases_img_content{margin-bottom:1.42em;}
+
+.new_cases .new_cases_title1 h3{font-size:2em;}
+.new_cases .new_cases_title1 p{font-size:1.2em;margin-bottom:1em;}
+}
+
+/* 小屏幕（平板，大于等于 480px小于768px） */
+@media (min-width:480px) and (max-width:768px) {
+.cases_content .cases_list{padding:0em;}
+.cases_content .cases_title h2{font-size:2.57em;padding-top:1.5em;}
+
+.cases_content .pages{margin-bottom:3em;}
+.cases_content .pages ul{width:304px;}
+.cases_content .pages li a{line-height:2.5em;width:56px;}
+.cases_content .pages li{margin:0 0.1em;}
+
+.new_cases{padding-bottom:3em;}
+.new_cases .new_cases_title1 h3{font-size:2.57em;}
+.new_cases .new_cases_title1 h3{font-size:2em;}
+.new_cases .new_cases_title1 p{font-size:1.2em;margin-bottom:1em;}
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+.cases_content .cases_title h2{font-size:2.57em;padding-top:1.5em;}
+.cases_content .cases_title hr{margin:1.2em auto 1em;}
+.cases_content nav{width:342px;}
+.cases_content nav a{margin:0 0.5em;font-size:1em;line-height:28px;}
+
+.cases_content .cases_list{padding:2em 0 0em;}
+
+.cases_content .pages{margin-bottom:3em;}
+.cases_content .pages ul{width:304px;}
+.cases_content .pages li a{line-height:2.5em;width:56px;}
+.cases_content .pages li{margin:0 0.1em;}
+
+
+.new_cases{padding-bottom:3em;}
+.new_cases .new_cases_title1 h3{font-size:2.57em;}
+.new_cases .new_cases_title1 h3{font-size:2em;}
+.new_cases .new_cases_title1 p{font-size:1.2em;margin-bottom:1em;}
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+.cases_content .pages{margin-bottom:5em;}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+.container{width:1000px}
+.new_cases .container{width:1200px;}
+
+.new_cases .new_cases_title1{height:0;overflow:hidden;}
+.new_cases .new_cases_title{width:18%;background:#ec5f00;color:#fff;float:left;height:234px;margin:0 7px 0 13px;}
+.new_cases .new_cases_title h3,.new_cases .new_cases_title p{text-align:right;padding-right:10%;}
+.new_cases .new_cases_title h3{font-size:1.71em;padding-top:2em;}
+.new_cases .new_cases_title p{font-size:1.42em;}
+
+.new_cases .new_cases_list{width:80%;float:left;}
+}

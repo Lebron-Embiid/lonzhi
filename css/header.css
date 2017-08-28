@@ -1,0 +1,53 @@
+header .tel{background:#f3f3f3;height:2.8em;line-height:2.8em;}
+header .tel p{font-size:0.85em;text-align:right;margin:0 auto;color:#848484;}
+.navbar{border:none;background:#fff;margin-bottom:0;}
+#logo{padding:1.75em 0;}
+#logo img{padding-left:0.8em;}
+#navbar-collapse ul li{padding:0 1.28em 1.78em;}
+#navbar-collapse ul li a{color:#afa9a9;padding:3.21em 0.78em 0.42em;border-bottom:3px solid #fff;}
+#navbar-collapse ul .act_bg a{border-bottom:3px solid #2da447;}
+#navbar-collapse ul li a:hover{border-bottom:3px solid #2da447;}
+.navbar-fixed-bottom, .navbar-fixed-top{position:relative;}
+
+/* 小屏幕（大于等于 480px） */
+@media (max-width: 480px) {
+#logo{padding:0;}
+#logo img{width:80%;}
+#logo a{padding-left:0;}
+#navbar-collapse ul li{padding:0 0.8em;}
+#navbar-collapse ul li a{padding-top:1em;}
+
+}
+
+/* 小屏幕（平板，大于等于 480px小于768px） */
+@media (min-width:480px) and (max-width:768px) {
+#logo{padding:0;}
+#logo img{width:80%;}
+#logo a{padding-left:0;}
+#navbar-collapse ul li{padding:0 0.8em;}
+#navbar-collapse ul li a{padding-top:1em;}
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+#logo{padding:0.83em 0;}
+#logo img{width:80%;}
+#logo a{padding-left:0;}
+#navbar-collapse ul li{padding:0 0.8em 1.2em;}
+#navbar-collapse ul li a{padding-top:2em;}
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+.container{width:1000px}
+
+}

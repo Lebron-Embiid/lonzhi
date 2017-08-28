@@ -1,0 +1,32 @@
+.cases_detail nav{margin-top:2.28em;color:#999292;}
+.cases_detail nav img{display:block;float:left;margin-right:0.3em;}
+.cases_detail nav a{color:#999292;padding-top:0.57em;display:inline-block;}
+.cases_detail nav a:hover{color:#f08037;}
+
+.cases_detail{padding-bottom:2.8em;background:#f4f4f4;}
+.cases_detail .cases_detail_top{text-align:center;margin:3.2em 0 3em;}
+.cases_detail .cases_detail_top h2{color:#a6a0a0;font-size:1.7em;}
+.cases_detail .cases_detail_top p{color:#a49e9e;font-size:0.85em;margin-top:1em;}
+.cases_detail .cases_detail_content p{color:#a49e9e;margin-bottom:3.7em;}
+.cases_detail .cases_detail_content img{width:100%;}
+
+/* 小屏幕（，大手机于等于 480px小于768px） */
+@media (min-width:480px) and (max-width:768px) {
+
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+.container{width:1000px}
+
+}

@@ -1,0 +1,38 @@
+.what{
+	margin: 50px 0 30px 0;
+}
+.what h3,.what h1{
+	color: #ff6000;
+}
+.article{
+	color: #aaa4a3;
+	margin-bottom: 50px;
+}
+.literary {
+	border-bottom: 1px solid #ddd;
+}
+.root{
+	text-align: center;
+	margin-top: 20px;
+	color: #aaa4a3;
+}
+.plan{
+	margin: 30px 0 30px 0;
+	color: #aaa4a3;
+}
+.ales{
+	color: #aaa4a3;
+}
+.one_h2{
+	text-align: center;
+	margin: 20px 0 20px 0;
+	color: #aaa4a3;
+}
+.introduce{
+	margin: 50px 0 30px 0;
+}
+.bottom_hr {
+    width: 100%;
+    border-top: 1px solid #aaa4a3;
+    margin: 50px 0 20px 0;
+}

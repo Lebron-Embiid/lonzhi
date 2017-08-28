@@ -1,0 +1,37 @@
+footer{padding-bottom:4.2em;}
+footer nav{padding-left:6.7em;margin:3.35em 0 0.64em;}
+footer nav a{padding:0 10px;color:#bab4b4;font-size:0.85em;}
+footer nav span{color:#eeeeee;}
+footer p{color:#bab4b4;font-size:0.85em;padding-left:8.67em;line-height:2.5em;float:left;}
+footer .footer_tle{color:#bab4b4;font-size:0.85em;line-height:2.5em;padding-left:1em;display:block;float:left;}
+footer img{margin-top:2em;}
+footer .footer_border{display:block;height:90px;width:1px;background:#eee;float:left;margin:2.8em 2.35em 0 0;}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width:768px) {
+footer nav{padding-left:0em;}
+footer p{padding-left:0.8em;}
+footer .footer_tle{padding-left:0.8em;}
+footer .footer_border{height:0px;width:0px;margin:0;}
+footer img{margin:1em auto;display: block;}
+footer #text{height:0;overflow:hidden;}
+/*footer .code{width:0;height:0;}*/
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+footer nav{padding-left:0em;}
+footer p{padding-left:0.8em;}
+footer .footer_tle{padding-left:0.8em;}
+/*footer #text{height:0;}*/
+/*footer .code{width:0;height:0;}*/
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+
+}
